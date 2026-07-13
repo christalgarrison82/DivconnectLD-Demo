@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Divcon Learning & Development Team</title>
+  <meta name="description" content="Divcon Controls Learning & Development Team portal">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div class="page" id="home">
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Divcon Learning and Development home">
+      <img src="assets/images/divcon-logo.png" alt="Divcon Controls">
+      <span class="divider"></span>
+      <span>Learning &amp; Development Team</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#home">Home</a><a href="#courses">Courses</a><a href="#resources">Resources</a><a href="#calendar">Calendar</a><a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="welcome panel-dark">
+      <p class="kicker">LEARNING AND DEVELOPMENT TEAM</p>
+      <h1>WELCOME BACK, LET’S KEEP GROWING!</h1>
+      <p class="subhead">Explore courses, resources, and events curated for your growth.</p>
+      <div class="stats">
+        <div><strong>1,240</strong><span>Courses Completed this Year</span></div>
+        <div><strong>86</strong><span>Live Sessions this Quarter</span></div>
+        <div><strong>94%</strong><span>Employee Satisfaction</span></div>
+      </div>
+    </section>
+
+    <section class="announcements panel-purple" id="announcements">
+      <h2>ANNOUNCEMENTS</h2>
+      <div class="carousel announcement-carousel" data-carousel data-delay="7000" data-autoplay="true">
+        <div class="viewport">
+          <div class="track">
+            <article class="slide">
+              <img src="assets/images/announcement-learning-starts-here.png" alt="Your Learning Starts Here">
+              <a class="caption light" href="#courses">YOUR LEARNING<br>STARTS HERE</a>
+            </article>
+            <article class="slide">
+              <img src="assets/images/announcement-why-divcon.png" alt="Why Divcon">
+              <a class="caption light" href="#resources">WHY DIVCON?</a>
+            </article>
+          </div>
+          <button class="arrow prev" aria-label="Previous announcement">‹</button>
+          <button class="arrow next" aria-label="Next announcement">›</button>
+        </div>
+        <div class="dots" aria-label="Announcement slides"></div>
+      </div>
+    </section>
+
+    <section class="courses panel-light" id="courses">
+      <h2>FEATURED COURSES</h2>
+      <div class="carousel course-carousel" data-carousel data-group-size="3" data-autoplay="false">
+        <div class="viewport">
+          <div class="track">
+            <article class="slide"><img src="assets/images/course-leadership-101.png" alt="Leadership 101"><a class="caption dark" href="#resources">LEADERSHIP 101</a></article>
+            <article class="slide"><img src="assets/images/course-day-in-life.png" alt="Day in the Life: Divcon Field Tech"><a class="caption dark" href="#resources">DAY IN THE LIFE:<br>DIVCON FIELD TECH</a></article>
+            <article class="slide"><img src="assets/images/course-word-basics.png" alt="Word Basics and File Management"><a class="caption dark" href="#resources">WORD BASICS &amp;<br>FILE MANAGEMENT</a></article>
+            <article class="slide"><img src="assets/images/featured-1.jpg" alt="Anti-Harassment, Discrimination, Retaliation and Respect in the Workplace"></article>
+            <article class="slide"><img src="assets/images/featured-2.jpg" alt="Safety, Accident Prevention, Emergency Action and Fire Prevention"></article>
+            <article class="slide"><img src="assets/images/featured-3.jpg" alt="Wireshark: What It Is and When to Use It"></article>
+            <article class="slide"><img src="assets/images/featured-4.jpg" alt="Private vs Public IP Addresses"></article>
+            <article class="slide"><img src="assets/images/featured-5.jpg" alt="Welcome to Divcon Ops Training"></article>
+            <article class="slide"><img src="assets/images/featured-6.jpg" alt="Saving Multiple IP Addresses"></article>
+          </div>
+          <button class="arrow prev" aria-label="Previous featured course">‹</button>
+          <button class="arrow next" aria-label="Next featured course">›</button>
+        </div>
+        <div class="dots dark-dots" aria-label="Featured course slides"></div>
+      </div>
+    </section>
+
+    <section class="promo-row panel-purple">
+      <a class="hover-wash" href="#resources"><img src="assets/images/learning-paths.png" alt="Learning Paths"></a>
+      <a class="hover-wash" href="#calendar"><img src="assets/images/upcoming-live-sessions.png" alt="Upcoming Live Sessions"></a>
+    </section>
+
+    <section class="calendar-section panel-light" id="calendar">
+      <h2>CALENDAR</h2>
+      <div class="calendar-card" aria-label="August 2026 training calendar">
+        <h3>AUGUST 2026</h3>
+        <div class="calendar-grid">
+          <div class="weekday">SUNDAY</div><div class="weekday">MONDAY</div><div class="weekday">TUESDAY</div><div class="weekday">WEDNESDAY</div><div class="weekday">THURSDAY</div><div class="weekday">FRIDAY</div><div class="weekday">SATURDAY</div>
+          <div class="day blank"></div><div class="day blank"></div><div class="day blank"></div><div class="day blank"></div><div class="day blank"></div><div class="day blank"></div><div class="day"><span class="date">1</span></div>
+          <div class="day sun"><span class="date">2</span></div><div class="day"><span class="date">3</span></div><div class="day"><span class="date">4</span><span class="event ddc">DDC Training</span></div><div class="day"><span class="date">5</span></div><div class="day"><span class="date">6</span></div><div class="day"><span class="date">7</span><span class="event plc">PLC Training</span></div><div class="day"><span class="date">8</span></div>
+          <div class="day sun"><span class="date">9</span></div><div class="day"><span class="date">10</span><span class="event leadership">Live Leadership 101</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">11</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">12</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">13</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">14</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">15</span></div>
+          <div class="day sun"><span class="date">16</span></div><div class="day"><span class="date">17</span></div><div class="day"><span class="date">18</span><span class="event ddc">DDC Training</span></div><div class="day"><span class="date">19</span></div><div class="day"><span class="date">20</span></div><div class="day"><span class="date">21</span><span class="event plc">PLC Training</span></div><div class="day"><span class="date">22</span></div>
+          <div class="day sun"><span class="date">23</span></div><div class="day"><span class="date">24</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">25</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">26</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">27</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">28</span><span class="event newhire">New Hire Training</span></div><div class="day"><span class="date">29</span></div>
+          <div class="day sun"><span class="date">30</span></div><div class="day"><span class="date">31</span></div><div class="day blank"></div><div class="day blank"></div><div class="day blank"></div><div class="day blank"></div><div class="day blank"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="info-row">
+      <article class="info-card" id="resources"><h2>RESOURCES</h2>
+        <a class="resource hover-wash" href="#resources">POLICY LIBRARY</a>
+        <a class="resource hover-wash" href="#resources">ONBOARDING GUIDES</a>
+        <a class="resource hover-wash" href="#resources">TEMPLATES AND FORMS</a>
+      </article>
+      <article class="info-card" id="faq"><h2>FAQ</h2>
+        <a class="question hover-wash" href="#faq">How do I enroll in a course?</a>
+        <a class="question hover-wash" href="#faq">Where do I find my transcript or certificates?</a>
+        <a class="question hover-wash" href="#faq">Can I get reimbursed for external courses?</a>
+        <a class="question hover-wash" href="#faq">How do I request a live session for my team?</a>
+        <a class="question hover-wash" href="#faq">What is the process for a training request?</a>
+        <a class="question hover-wash" href="#faq">Who do I contact for training requests?</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <h2>L&amp;D TEAM <span>•</span> <a href="mailto:training@divconcontrols.com">training@divconcontrols.com</a></h2>
+    <div class="team">
+      <article><img src="assets/images/yvette-smith.png" alt="Yvette Smith"><h3>Yvette Smith</h3><p>L&amp;D Manager</p></article>
+      <article><img src="assets/images/christal-garrison.png" alt="Christal Garrison"><h3>Christal Garrison</h3><p>L&amp;D Specialist</p></article>
+      <article><img src="assets/images/ryan-daigle.png" alt="Ryan Daigle"><h3>Ryan Daigle</h3><p>Training Specialist</p></article>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
